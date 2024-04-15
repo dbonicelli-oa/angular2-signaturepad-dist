@@ -117,27 +117,26 @@ class SignaturePad {
             i0.ɵɵelement(0, "canvas");
         } }, encapsulation: 2 });
 }
-(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(SignaturePad, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(SignaturePad, [{
         type: Component,
         args: [{
                 template: '<canvas></canvas>',
                 selector: 'signature-pad',
             }]
-    }], () => [{ type: i0.ElementRef }], { options: [{
+    }], function () { return [{ type: i0.ElementRef }]; }, { options: [{
             type: Input
         }], onBeginEvent: [{
             type: Output
         }], onEndEvent: [{
             type: Output
         }] }); })();
-(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(SignaturePad, { className: "SignaturePad" }); })();
 
 class SignaturePadModule {
     static ɵfac = function SignaturePadModule_Factory(t) { return new (t || SignaturePadModule)(); };
     static ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: SignaturePadModule });
     static ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({});
 }
-(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(SignaturePadModule, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(SignaturePadModule, [{
         type: NgModule,
         args: [{
                 declarations: [SignaturePad],
